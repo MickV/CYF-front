@@ -1,0 +1,6 @@
+<p>users-list works!</p>
+<div *ngIf="users">
+  <ul *ngFor="let user of users">
+    <li>{{user.name}} : {{user.role}}</li>
+  </ul>
+</div>
